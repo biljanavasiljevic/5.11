@@ -1,0 +1,133 @@
+
+body{
+	position:relative;
+
+
+
+}
+/*Header*/
+#header-div{
+	position: relative;
+	top:0;
+	padding-top: 7%;
+	background-color: #ecdfdf;
+	overflow-x:  hidden;
+	
+}
+
+.navbar{
+	justify-content: flex-start;
+}
+
+.left-box{
+	
+	margin-left: 50px;
+	
+
+
+}
+.right-box{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: -25px;
+	top:30px;
+
+}
+.box-icon{
+	padding:0 1em;
+	font-size: 1.2em;
+}
+.navbar-toggler{
+	font-size: 0.8em;
+	border:none;
+	
+}
+
+
+/*carousel*/
+
+
+
+#images{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#images img{
+	
+	width: 100%;
+	height:auto;
+	margin-top: 15px;
+
+	
+}
+#images  a:hover {
+	opacity: 0.8;
+}
+/*Text*/
+#text{
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 5%;
+}
+#text ul li a{
+	color:black;
+
+}
+
+
+
+@media screen and (min-width: 990px){
+	#header-div{
+		padding-top: 2%;
+		background-color: unset;
+	}
+	.carousel{
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+	.prev-next{
+	background-color: #777777;
+	padding: 1vw;
+	border-radius: 50%;
+}
+#main{
+	position: relative;
+	top:0;
+
+
+}
+	
+#images{
+	position: absolute;
+	top: 0;
+	margin-top: 45%;
+
+}
+#text{
+	position: absolute;
+	top:0;
+	margin-top: 70%;
+
+}
+div#images2 {
+    position: absolute;
+    top: 0;
+    margin-top: 88%;
+
+	
+
+}
+#images2 .carousel-item.active{
+   display: flex;
+   
+}
+
+#images2 img{
+	padding: 0 5px;
+}
+
+
+}
