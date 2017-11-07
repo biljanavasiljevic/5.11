@@ -30,7 +30,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
-	right: -25px;
+	/*right: -25px;*/
 	top:30px;
 
 }
